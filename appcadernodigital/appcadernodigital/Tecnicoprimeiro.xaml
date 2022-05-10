@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appcadernodigital.Tecnicoprimeiro">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="ensino Técnico" TextColor="Black" FontSize="Large" FontAttributes="Bold"/>
+            <Grid RowSpacing="20" ColumnSpacing="10" Padding="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+
+                </Grid.RowDefinitions>
+
+                <Button Grid.Row="0" Grid.Column="0"     
+                    Text="Programação Web"
+                    Clicked="Button_Clicked" 
+                    TextColor="White"  
+                    BackgroundColor="#722620"/>
+
+                <Button Grid.Row="0" Grid.Column="1"                        
+                    Text="Analise de sistema" 
+                    Clicked="Button_Clicked_1"
+                     TextColor="White" 
+                     BackgroundColor="#30110D"/>
+
+                <Button Grid.Row="1" Grid.Column="0"                        
+                    Text="Design" 
+                    Clicked="Button_Clicked_2"
+                    TextColor="White"  
+                    BackgroundColor="#722620"/>
+
+                <Button Grid.Row="1" Grid.Column="1"                        
+                    Text="Fundamento da Informatica" 
+                    Clicked="Button_Clicked_3"
+                    TextColor="White" 
+                    BackgroundColor="#30110D"/>
+
+                <Button Grid.Row="2" Grid.Column="0"                        
+                    Text="Tecnicas de Programaçao" 
+                    Clicked="Button_Clicked_4"
+                    TextColor="White"  
+                    BackgroundColor="#722620"/>
+               
+                <Button Grid.Row="2" Grid.Column="1"                        
+                    Text="Banco de Dados" 
+                    Clicked="Button_Clicked_5"
+                    TextColor="White" 
+                    BackgroundColor="#30110D"/>
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

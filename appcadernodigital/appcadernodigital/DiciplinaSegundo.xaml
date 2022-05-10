@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appcadernodigital.DiciplinaSegundo">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label Text="ensino médio"  TextColor="Black" FontSize="Large" FontAttributes="Bold" />
+            
+            <Grid RowSpacing="20" ColumnSpacing="10" Padding="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+
+                <Button Grid.Row="0" Grid.Column="0" 
+                    Text="Artes" 
+                          TextColor="White" 
+                     BackgroundColor="#30110D" 
+                    Clicked="Button_Clicked" />
+
+                <Button Grid.Row="0" Grid.Column="1"
+                Text="Biologia" 
+                       TextColor="White"  
+                    BackgroundColor="#722620"
+                Clicked="Button_Clicked_1" />
+
+                <Button Grid.Row="1" Grid.Column="0"
+                Text="Educação fisíca" 
+                        TextColor="White" 
+                     BackgroundColor="#30110D"
+                Clicked="Button_Clicked_2" />
+
+                <Button Grid.Row="1" Grid.Column="1"
+                Text="Fliosofia" 
+                        TextColor="White"  
+                    BackgroundColor="#722620"
+                Clicked="Button_Clicked_3" />
+
+                <Button Grid.Row="2" Grid.Column="0" 
+                Text="Fisica" 
+                        TextColor="White" 
+                     BackgroundColor="#30110D"
+                Clicked="Button_Clicked_10" />
+
+                <Button Grid.Row="2" Grid.Column="1"
+                Text="Geografia"
+                        TextColor="White"  
+                    BackgroundColor="#722620"
+                Clicked="Button_Clicked_4" />
+
+                <Button Grid.Row="3" Grid.Column="0"
+                Text="História" 
+                        TextColor="White" 
+                     BackgroundColor="#30110D"
+                Clicked="Button_Clicked_5" />
+
+                <Button Grid.Row="3" Grid.Column="1"
+                Text="inglês" 
+                        TextColor="White"  
+                    BackgroundColor="#722620"
+                Clicked="Button_Clicked_6" />
+
+                <Button Grid.Row="4" Grid.Column="0"
+                Text="matematica" 
+                        TextColor="White" 
+                     BackgroundColor="#30110D"
+                Clicked="Button_Clicked_7" />
+
+                <Button Grid.Row="4" Grid.Column="1"
+                Text="portugues" 
+                        TextColor="White"  
+                    BackgroundColor="#722620"
+                Clicked="Button_Clicked_8" />
+
+                <Button Grid.Row="5" Grid.Column="0"
+                Text="quimica" 
+                        TextColor="White" 
+                     BackgroundColor="#30110D"
+                Clicked="Button_Clicked_9" />
+
+                </Grid>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

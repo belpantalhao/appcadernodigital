@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appcadernodigital.MainPage"
+             BackgroundColor="#f2bC94">
+
+    <!-- O stacklayout serve para fazer a organização e exibições filhas em uma pilha, ela pode ser
+    organizada tanto na horital ou na vertical. -->
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+
+        <!-- O label serve para mostrar um texto e dentro dela pode ter  alguns valores atribuídos 
+        como cor,tamanho da letra ,entre outras coisas.  -->
+        <Label Text="Ensino  Médio" TextColor="Black" FontSize="Large" FontAttributes="Bold"/>
+
+        <!--O elemento Button é usado para criar um botão que também pode haver os valores definidos,além que nele 
+        há o Clicked para verificar se o usuário clicou em algum botão e nesse caso quando o 
+        usuário aperta, ele vai ser redirecionar para uma outra pagina.  -->
+        <Button Text="Primeiro" Clicked="Button_Clicked_1"  TextColor="White"  BackgroundColor="#722620"/>
+        <Button Text="Segundo" Clicked="Button_Clicked_2" TextColor="White" BackgroundColor="#30110D"/>
+        <Button Text="Terceiro" Clicked="Button_Clicked_3" TextColor="White" BackgroundColor="#722620"/>
+
+        <Label Text="Ensino Técnico" TextColor="Black" FontSize="Large" FontAttributes="Bold" Margin="0,30,0,0"/>
+        <Button Text="Primeiro" Clicked="Button_Clicked_4"  TextColor="White"  BackgroundColor="#30110D"/>
+        <Button Text="Segundo" Clicked="Button_Clicked" TextColor="White" BackgroundColor="#722620"/>
+        <Button Text="Terceiro" Clicked="Button_Clicked_5" TextColor="White" BackgroundColor="#30110D"/>
+
+
+    </StackLayout>
+
+    <!-- O contentpage é feito para obter ou definir o modo de exibição que contém o conteúdo da Página. -->
+</ContentPage>
